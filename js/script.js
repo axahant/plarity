@@ -5,6 +5,7 @@ function flip() {
     var flipResult = Math.random();
     let result;
     setTimeout(function() {
+        resultEl.innerHTML = '';
         if (flipResult <= 0.5) {
             result = 'heads';
             coinEl.classList.add('heads');
