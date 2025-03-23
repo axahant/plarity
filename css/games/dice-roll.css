@@ -1,6 +1,6 @@
 body {
     display: flex;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 #dice {
@@ -94,21 +94,21 @@ body {
     transform: rotateX(450deg) rotateY(360deg) rotateZ(720deg);
 }
 
-#dice[data-side="1"].reRoll {
+#dice[data-side="1"].roll {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
-#dice[data-side="2"].reRoll {
+#dice[data-side="2"].roll {
     transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
 }
-#dice[data-side="3"].reRoll {
+#dice[data-side="3"].roll {
     transform: rotateX(0deg) rotateY(270deg) rotateZ(0deg);
 }
-#dice[data-side="4"].reRoll {
+#dice[data-side="4"].roll {
     transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg);
 }
-#dice[data-side="5"].reRoll {
+#dice[data-side="5"].roll {
     transform: rotateX(270deg) rotateY(0deg) rotateZ(0deg);
 }
-#dice[data-side="6"].reRoll {
+#dice[data-side="6"].roll {
     transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
 }

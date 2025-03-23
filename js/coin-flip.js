@@ -13,8 +13,8 @@ function flip(hasUserChosenHeads) {
     }
     coinEl.classList.add(result);
 
-    resultEl.classList.remove("reveal");
-    resultEl.classList.add("hide");
+    resultEl.classList.remove('reveal');
+    resultEl.classList.add('hide');
 
     if (result == 'heads' && hasUserChosenHeads) {
         resultEl.innerHTML = 'Well Done, you got it right!';
@@ -27,7 +27,6 @@ function flip(hasUserChosenHeads) {
     }
 
     setTimeout(function() {
-        resultEl.classList.add("reveal");
+        resultEl.classList.add('reveal');
     }, 3000);
-    
 };
