@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>Plarity - Dice Roll</title>
+    <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/games/game.css" >
     <link rel="stylesheet" href="/css/games/dice-roll.css" >
     <script type="text/javascript" src="/js/dice-roll.js"></script>
 </head>
 <body>
-    <div style="display: flex; flex-direction: column; flex-grow: 1;">
-        <div style="flex-grow: 1; display: flex; align-items: center; flex-direction: column;">
-            <div id="dice-roll" style="display: flex; flex-direction: column;">
+    <div class="d-flex flex-grow">
+        <div  class="d-flex flex-grow a-center">
+            <div id="diceRoll" class="d-flex">
                 <div id="dice" data-side="1">
                     <div class="sides side-1">
                         <span class="dot dot-1"></span>
@@ -49,7 +50,7 @@
             
             <div id="result">Choose your number!</div>              
             </div>
-            <div style="display:flex; justify-content: center; margin-top: 35px;">
+            <div class="d-flex flex-row j-center" style="margin-top: 35px;">
                 <button onclick="rollDice(1);">1</button>
                 &nbsp;&nbsp;
                 <button onclick="rollDice(2);">2</button>

@@ -1,0 +1,28 @@
+* {
+    color: white;
+}
+
+button {
+    color: #000;
+}
+
+.d-flex {
+	display: flex; 
+	flex-direction: column; 
+}
+
+.flex-row {
+	flex-direction: row; 
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.j-center {
+	justify-content: center;
+}

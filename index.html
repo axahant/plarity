@@ -4,19 +4,20 @@
     <title>Plarity</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
-<body style="width: 100vw; height: 100vh; margin: 0; display:flex;">
-    <div style="display: flex; flex-direction: column; flex-grow: 1;">
-        <div style="display: flex;">
+<body>
+    <div>
+        <div id="header">
             <img id="logoImage" src="img/full-logo.svg" style="height: 75px;" class="margin-small">
-            <div style="display: flex; flex-grow: 1; justify-content: center; align-items: center;">
+            <div class="d-flex flex-grow j-center">
                 <input class="padding-small"
                        style="width: 75%; height: 1.5em; border-radius: 0.75em;"
                        placeholder="Search for games here...">
             </div>
         </div>
-        <div style="flex-grow: 1; display: flex; align-items: center; flex-direction: column;">
-            <iframe src="/games/coin-flip.html" seamless width="100%" height="280px" scrolling="no"></iframe>
+        <div class="d-flex flex-grow a-center">
+            <iframe src="/games/coin-flip.html" seamless width="100%" height="240px" scrolling="no"></iframe>
             <iframe src="/games/dice-roll.html" seamless width="100%" height="280px" scrolling="no"></iframe>
         </div>
     </div>
