@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plarity</title>
+    <link rel="stylesheet" href="/css/games/coin-flip.css" >
+    <script type="text/javascript" src="/js/coin-flip.js"></script>
+</head>
+<body style="display:flex;">
+    <div style="display: flex; flex-direction: column; flex-grow: 1;">
+        <div style="background-color: lightgray; flex-grow: 1; display: flex; align-items: center; flex-direction: column;">
+            <div id="coinFlip" style="display: flex; flex-direction: column;">
+                <div id="coin">
+                    <div class="side-a">
+                        <img src="/img/head.png">
+                    </div>
+                    <div class="side-b">
+                        <img src="/img/tail.png">
+                    </div>
+                </div>              
+                <h1 id="result">Choose a side!</h1>
+            </div>
+            <div>
+                <button onclick="flip(1);">Heads</button>
+                &nbsp;&nbsp;
+                <button onclick="flip(0);">Tails</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

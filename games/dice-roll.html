@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plarity</title>
+    <link rel="stylesheet" href="/css/games/dice-roll.css" >
+    <script type="text/javascript" src="/js/dice-roll.js"></script>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; flex-grow: 1;">
+        <div style="background-color: lightgray; flex-grow: 1; display: flex; align-items: center; flex-direction: column;">
+            <div id="dice-roll" style="display: flex; flex-direction: column;">
+                <div id="dice" data-side="1">
+                    <div class="sides side-1">
+                        <span class="dot dot-1"></span>
+                    </div>
+                    <div class="sides side-2">
+                        <span class="dot dot-1"></span>
+                        <span class="dot dot-2"></span>
+                    </div>
+                    <div class="sides side-3">
+                        <span class="dot dot-1"></span>
+                        <span class="dot dot-2"></span>  
+                        <span class="dot dot-3"></span>
+                    </div>
+                    <div class="sides side-4">
+                        <span class="dot dot-1"></span>
+                        <span class="dot dot-2"></span>  
+                        <span class="dot dot-3"></span>
+                        <span class="dot dot-4"></span>
+                    </div>
+                    <div class="sides side-5">
+                        <span class="dot dot-1"></span>
+                        <span class="dot dot-2"></span>  
+                        <span class="dot dot-3"></span>
+                        <span class="dot dot-4"></span>
+                        <span class="dot dot-5"></span>
+                    </div>
+                    <div class="sides side-6">
+                        <span class="dot dot-1"></span>
+                        <span class="dot dot-2"></span>  
+                        <span class="dot dot-3"></span>
+                        <span class="dot dot-4"></span>
+                        <span class="dot dot-5"></span>
+                        <span class="dot dot-6"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="diceResult">Choose your number!</div>              
+            </div>
+            <div style="display:flex; justify-content: center; margin-top: 35px;">
+                <button onclick="rollDice(1);">1</button>
+                &nbsp;&nbsp;
+                <button onclick="rollDice(2);">2</button>
+                &nbsp;&nbsp;
+                <button onclick="rollDice(3);">3</button>
+                &nbsp;&nbsp;
+                <button onclick="rollDice(4);">4</button>
+                &nbsp;&nbsp;
+                <button onclick="rollDice(5);">5</button>
+                &nbsp;&nbsp;
+                <button onclick="rollDice(6);">6</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

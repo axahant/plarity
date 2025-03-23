@@ -29,4 +29,3 @@ function flip(hasUserChosenHeads) {
     }, 3000);
     
 };
-
